@@ -1,0 +1,28 @@
+{
+  "description": "GitBook Plugin to insert logo.png into the navigation above search input.",
+  "name": "gitbook-plugin-insert-logo",
+  "version": "0.1.0",
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "insert-logo",
+    "logo",
+    "github"
+  ],
+  "main": "index.js",
+  "author": {
+    "name": "matusnovak",
+    "email": "matusnov@gmail.com"
+  },
+  "readme": "GitBook Plugin to insert logo.png into the navigation above search input.",
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "gitbook": {
+    "properties": {}
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matusnovak/gitbook-plugin-insert-logo.git"
+  }
+}
