@@ -19,7 +19,13 @@
     "gitbook": ">1.x.x"
   },
   "gitbook": {
-    "properties": {}
+    "properties": {
+      "url": {
+        "type": "string",
+        "default": "http://examples/logo.png",
+        "title": "Logo URL"
+      }
+    }
   },
   "repository": {
     "type": "git",
