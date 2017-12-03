@@ -1,7 +1,7 @@
 {
-  "description": "GitBook Plugin to insert logo.png into the navigation above search input.",
+  "description": "GitBook Plugin to insert (url or file or base64) into the navigation above search input.",
   "name": "gitbook-plugin-insert-logo",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "keywords": [
     "gitbook",
     "plugin",
@@ -14,7 +14,7 @@
     "name": "matusnovak",
     "email": "matusnov@gmail.com"
   },
-  "readme": "GitBook Plugin to insert logo.png into the navigation above search input.",
+  "readme": "GitBook Plugin to insert logo (url or file or base64) into the navigation above search input.",
   "engines": {
     "gitbook": ">1.x.x"
   },
