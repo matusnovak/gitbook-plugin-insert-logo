@@ -23,6 +23,7 @@ You will also need to provide url for the logo. The url can be local file, a rem
     "pluginsConfig": {
         "insert-logo": {
             "url": "http://www.example.com/my-logo.png"
+            "style": "background: white;"
         }
     }
 }
