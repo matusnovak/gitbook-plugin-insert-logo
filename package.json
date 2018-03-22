@@ -27,7 +27,7 @@
       },
       "style": {
         "type": "string",
-        "default": "background: white;",
+        "default": "background: none;",
         "title": "Custom CSS"
       }
     }
