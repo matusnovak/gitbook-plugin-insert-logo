@@ -28,3 +28,18 @@ You will also need to provide url for the logo. The url can be local file, a rem
     }
 }
 ```
+
+## Logo is disappearing?
+
+You are most likely using relative paths for your logo in the config. The path is relative to the current page. This can also happen with nested TOC. Consider using absolute path (the url to the file starts as: `/logo.png` instead of `logo.png`), or use base64 (see example below).
+
+## Use base64 for logo instead of URL
+_(The example gif encoded as base64 is taken from example here: https://css-tricks.com/data-uris/)_
+
+```
+"pluginsConfig": {
+    "insert-logo": {
+        "url": "data:image/gif;base64,R0lGODlhEAAQAMQAAORHHOVSKudfOulrSOp3WOyDZu6QdvCchPGolfO0o/XBs/fNwfjZ0frl3/zy7////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAkAABAALAAAAAAQABAAAAVVICSOZGlCQAosJ6mu7fiyZeKqNKToQGDsM8hBADgUXoGAiqhSvp5QAnQKGIgUhwFUYLCVDFCrKUE1lBavAViFIDlTImbKC5Gm2hB0SlBCBMQiB0UjIQA7"
+    }
+}
+```
